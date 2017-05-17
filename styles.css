@@ -1,0 +1,21 @@
+$on: #F64747; //red
+$off: #68C3A3; //green
+$rest:  #446CB3; //blue
+
+#TimerBox {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  
+  &.on {
+    background-color: $on;
+  }
+
+  &.off {
+    background-color: $off;
+  }
+
+  &.rest {
+    background-color: $rest;
+  }
+}
