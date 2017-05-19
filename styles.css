@@ -1,21 +1,24 @@
-$on: #F64747; //red
+/*$on: #F64747; //red
 $off: #68C3A3; //green
-$rest:  #446CB3; //blue
+$rest:  #446CB3; //blue*/
 
 #TimerBox {
   width: 200px;
   height: 200px;
   margin: 20px auto;
-  
-  &.on {
-    background-color: $on;
-  }
-
-  &.off {
-    background-color: $off;
-  }
-
-  &.rest {
-    background-color: $rest;
-  }
+  background-color: #F64747;
+  transition: 0.3s linear;
 }
+
+#TimerBox.on {
+  background-color: #F64747;
+}
+
+#TimerBox.off {
+  background-color: #68C3A3;
+}
+
+#TimerBox.rest {
+  background-color: #446CB3;
+}
+
